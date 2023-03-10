@@ -11,8 +11,7 @@ public class Pizzeria {
 
     private Storage storage;
 
-    public Pizzeria(Storage storage)
-    {
+    public Pizzeria(Storage storage) {
         this.storage = storage;
     }
 
@@ -25,4 +24,9 @@ public class Pizzeria {
         }
         return null;
     }
+
+    public void test() {
+        System.out.println("funkcja testowa");
+    }
+
 }
